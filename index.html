@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="logo.jpg">
+    <title>Mi Clima</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.33/moment-timezone-with-data.min.js"></script>
+   
+  </head>
+  <body>
+    <div id="loader" class="loader">Loading...</div>
+    <div class="container">
+      <div class="titulo">
+        <img class="logo" src="logo.jpg" width="100px" height="100px">
+        <h1>Mi Clima</h1>
+      </div>
+      
+      <div id="current-weather-container"></div>
+      <h1 class="proximosdias">Clima Próximos Días</h1>
+      <div id="forecast-container">
+        <div class="day-container">
+          <div class="weather-container">
+            <!-- Pronósticos del tiempo para este día -->
+          </div>
+        </div>
+        <!-- Repetir para los demás días -->
+      </div>
+      <div id="map-container"></div>
+      <footer>
+        <div class="texto-contacto">
+          <h3>Copyright © 2023</h3>
+            <h3>Desarrollado por Lucio Altamirano</h3>
+            <h3>Escribime para más información</h3>
+        </div>
+        <div class="redes-sociales">
+          <a href="https://wa.me/543547570937" target="_blank"><img class="redes" src="whatsapp.png" alt="Red Social 1"></a>
+          <a href="mailto: lapfilms7@gmail.com" target="_blank"><img class="redes" src="gmail.png" alt="Red Social 2"></a>
+          <a href="https://www.instagram.com/lucio_altamirano/" target="_blank"><img class="redes" src="instagram.png" alt="Red Social 3"></a>
+        </div>
+      </footer>      
+    <script src="ia.js"></script>
+  </body>
+</html>
+
+
